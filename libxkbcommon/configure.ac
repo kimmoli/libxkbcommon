@@ -116,7 +116,7 @@ AC_ARG_WITH([default_layout],
     [AS_HELP_STRING([--with-default-layout=<path>],
         [Default XKB layout (default: us)])],
     [DEFAULT_XKB_LAYOUT="$withval"],
-    [DEFAULT_XKB_LAYOUT="us"])
+    [DEFAULT_XKB_LAYOUT="fi"])
 AC_DEFINE_UNQUOTED([DEFAULT_XKB_LAYOUT], ["$DEFAULT_XKB_LAYOUT"],
                    [Default XKB layout])
 
